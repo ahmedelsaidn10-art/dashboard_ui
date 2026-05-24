@@ -235,11 +235,12 @@ html {
 .container-box {
     display: flex;
     flex-wrap: wrap;
+    
     margin-bottom: 30px;
 }
 
 .outer-box-1 {
-    padding-inline: 10px;
+    padding: 10px;
     flex: 1 1 33.33333%;
     min-width: 300px;
 }
@@ -1384,6 +1385,7 @@ td:nth-child(5) {
         margin-right: 70px;
         /* width: calc(100% - 90px); */
         flex: 1;
+
     }
 
     .img-h1-p-sidebar {
@@ -1491,6 +1493,8 @@ td:nth-child(5) {
     .main-content {
         margin-right: 0;
         width: 100%;
+         padding: 15px;
+
     }
 
     .p-saif {
